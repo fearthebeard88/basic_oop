@@ -1,8 +1,11 @@
 <?php
 
 class Cars {
+    // available everywhere
     public $wheel_count = 4;
+    // only available in this class
     private $door_count = 4;
+    // available in this class and any subclasses
     protected $window_count = 6;
 
     function car_detail() {
